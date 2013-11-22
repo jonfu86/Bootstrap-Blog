@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <!-- <div class="header"> -->
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#Home">Welcome to Jon's Blog</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#Home"><span class="red">Home</span></a></li>
+                <li class="dropdown">
+                  <a href="#Food" class="dropdown-toggle" data-toggle="dropdown"><span class="red">Food </span><b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#Ramen">Ramen</a></li>
+                    <li><a href="#Sushi">Sushi</a></li>
+                    <li><a href="#BBQ">BBQ</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#Games" class="dropdown-toggle" data-toggle="dropdown"><span class="red">Games </span><b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#MWO">Mechwarrior Online</a></li>
+                    <li><a href="#Exile">Path of Exile</a></li>
+                    <li><a href="#Star">Star Citizen</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#Shows" class="dropdown-toggle" data-toggle="dropdown"><span class="red">Shows </span><b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#Bad">Breaking Bad</a></li>
+                    <li><a href="#Dead">Walking Dead</a></li>
+                    <li><a href="#Suits">Suits</a></li>
+                    <li><a href="#Sons">Sons of Anarchy</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#Hobbies" class="dropdown-toggle" data-toggle="dropdown"><span class="red">Hobbies</span> <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#Jits">Brazilian Jiu-Jitsu</a></li>
+                    <li><a href="#Pong">Ping Pong</a></li>
+                    <li><a href="#Computers">Computers</a></li>
+                    <li><a href="#Guns">Guns</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div class="carousel_container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      
+      <div class="carousel-inner">
+      <div class="item active">
+          <a name="home"></a>
+          <img src="pro.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Hi my name is Jon and this is my website!</h1>
+              <p>If you are viewing this page, that means somehow I've managed to get this Bootstrap template to work!</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="lime.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Let me show you around!</h1>
+              <p>Selecting one of the options from the drop-down navigation toolbar will (hopefully) take you to the part of my site you want to view.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="bottle2.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Thanks for Visiting!</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Indicators -->
+      <ol class="carousel-indicators" id="indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    </div>
+
+<div class="carousel_container">
+    <div id="food" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="item active">
+        <a name="Ramen"></a>
+         <img src="ramen.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Ramen</h1>
+              <p>One of my favorite foods is ramen. My favorite ramen joints in the bay area include Ramen Dojo, Santouka and Orenchi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="Sushi"></a>
+          <img src="sushi.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sushi</h1>
+              <p>I loooooove sushi! I mean who doesn't?</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="BBQ"></a>
+          <img src="ribs.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Barbecque</h1>
+              <p>I love to barbecque with friends whenever we can. My specialty is pork ribs.
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Indicators -->
+      <ol class="carousel-indicators" id="indicators">
+        <li data-target="#food" data-slide-to="0" class="active"></li>
+        <li data-target="#food" data-slide-to="1"></li>
+        <li data-target="#food" data-slide-to="2"></li>
+      </ol>
+
+      <a class="left carousel-control" href="#food" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#food" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    </div>
+
+<div class="carousel_container">
+    <div id="games" class="carousel slide" data-ride="carousel">
+      
+      <div class="carousel-inner">
+        <div class="item active">
+          <a name="MWO"></a>
+          <img src="mwo.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Mechwarrior Online</h1>
+              <p>There is just something especially satisfying about shooting stuff with giant stompy robots.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="Exile"></a>
+          <img src="exile.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Path of Exile</h1>
+              <p>An action RPG with nice graphics and interesting gameplay mechanics.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="Star"></a>
+          <img src="hornet.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Star Citizen</h1>
+              <p>Although this game hasn't been released yet, I'm really excited to see how this game turns out. They've raised over $26million dollars to develop the game.
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Indicators -->
+      <ol class="carousel-indicators" id="indicators">
+        <li data-target="#games" data-slide-to="0" class="active"></li>
+        <li data-target="#games" data-slide-to="1"></li>
+        <li data-target="#games" data-slide-to="2"></li>
+      </ol>
+
+      <a class="left carousel-control" href="#games" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#games" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    </div>
+
+<div class="carousel_container">
+    <div id="shows" class="carousel slide" data-ride="carousel">  
+      <div class="carousel-inner">
+        <a name="Bad"><div class="item active"></a>
+          <img src="bad.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Breaking Bad</h1>
+              <p>If you could only watch one TV show in your entire life, this would be it. This is the best show in the history of television.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="Dead"></a>
+          <img src="dead2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Walking Dead</h1>
+              <p>Zombies.......ahhhhhh!!!</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="suits"></a>
+          <img src="suits.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>This show makes lawyers not boring. Check it out if you get a chance!</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="sons"></a>
+          <img src="sons.jpg" alt="Fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>Guns and motorcycles. Badass show.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Indicators -->
+      <ol class="carousel-indicators" id="indicators">
+        <li data-target="#shows" data-slide-to="0" class="active"></li>
+        <li data-target="#shows" data-slide-to="1"></li>
+        <li data-target="#shows" data-slide-to="2"></li>
+        <li data-target="#shows" data-slide-to="3"></li>
+      </ol>
+
+      <a class="left carousel-control" href="#shows" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#shows" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    </div>
+
+<div class="carousel_container">
+    <div id="hobbies" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="item active">
+        <a name="Jits"></a>
+          <img src="jits.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Brazilian Jiu-Jitsu</h1>
+              <p>I just got my blue belt a few weeks ago. I've been training for about two years.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="Pong"></a>
+          <img src="pingpong.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Ping Pong</h1>
+              <p>Ping pong is a great way to exercise and keep your reflexes sharp!</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="Computers"></a>
+          <img src="computer.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Computers</h1>
+              <p>I like to keep up with the latest computer hardware and gadgets. I even put together my gaming PC at home by myself.
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <a name="Guns"></a>
+          <img src="guns.jpg" alt="Fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Guns</h1>
+              <p>I enjoy shooting guns as a hobby. You aren't a true 'murrican if you don't!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Indicators -->
+      <ol class="carousel-indicators" id="indicators">
+        <li data-target="#hobbies" data-slide-to="0" class="active"></li>
+        <li data-target="#hobbies" data-slide-to="1"></li>
+        <li data-target="#hobbies" data-slide-to="2"></li>
+        <li data-target="#hobbies" data-slide-to="3"></li>
+      </ol>
+
+      <a class="left carousel-control" href="#hobbies" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#hobbies" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/docs-assets/js/holder.js"></script>
+  </body>
+</html>
